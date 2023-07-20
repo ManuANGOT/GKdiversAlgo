@@ -14,7 +14,7 @@ function permuterEntiers(a, b) {
     console.log("b =", b);
   }
   
-  // Fonction pour tester si un nombre est premier
+  // Fonction pour tester si le nombre entré est premier
   function estNombrePremier(nombre) {
     if (nombre <= 1) return false;
     if (nombre <= 3) return true;
