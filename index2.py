@@ -1,4 +1,5 @@
 tab = [10, 15, 4, 1, 2]
+
 def tri(tab):
     n = len(tab)
     swapped = True
@@ -23,7 +24,6 @@ def tri(tab):
             if tab[j] > tab[j + 1]:
                 tab[j], tab[j + 1] = tab[j + 1], tab[j]
                 swapped = True
-
         
         start = start + 1
 
