@@ -1,4 +1,4 @@
-// Fonction pour permuter deux entiers
+// Une fFonction pour permuter deux entiers
 function permuterEntiers(a, b) {
     console.log("Avant la permutation :");
     console.log("a =", a);
@@ -14,7 +14,7 @@ function permuterEntiers(a, b) {
     console.log("b =", b);
   }
   
-  // Fonction pour tester si le nombre entré est premier
+  // Fonction pour tester si le nombre entré par l'utilisateur est premier
   function estNombrePremier(nombre) {
     if (nombre <= 1) return false;
     if (nombre <= 3) return true;
@@ -30,7 +30,7 @@ function permuterEntiers(a, b) {
     return true;
   }
   
-  // Demander à l'utilisateur d'entrer les deux entiers
+  // Demander à l'utilisateur d'entrer deux entiers
   const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
@@ -38,13 +38,13 @@ function permuterEntiers(a, b) {
   
   readline.question("Entrez le premier entier : ", (entier1) => {
     readline.question("Entrez le deuxième entier : ", (entier2) => {
-      // Convertir les entrées en nombres entiers
+    // Convertir les entrées en nombres entiers
       entier1 = parseInt(entier1);
       entier2 = parseInt(entier2);
   
       permuterEntiers(entier1, entier2);
   
-      // Tester si les deux nombres sont premiers
+    // Tester si les deux nombres sont premiers
       console.log(entier1, "est un nombre premier :", estNombrePremier(entier1));
       console.log(entier2, "est un nombre premier :", estNombrePremier(entier2));
   
