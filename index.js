@@ -1,4 +1,4 @@
-// Une fFonction pour permuter deux entiers
+// Une fonction pour permuter deux entiers
 function permuterEntiers(a, b) {
     console.log("Avant la permutation :");
     console.log("a =", a);
