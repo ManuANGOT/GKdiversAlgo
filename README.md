@@ -1,6 +1,5 @@
 # GKdiversAlgo
-## exercice index : entrer dans le terminal : node index.js
 
-## exercice index 2 : entrer dans le terminal : node.index2.js
+## Pour démarrer exercices en js, entrer dans le terminal : node "fileName".js
 
-## exercice tri_conctail : entrer dans le terminal : python tri_cocktail.py
+## Pour démarrer exercices en Python, entrer dans le terminal : python "file_name".py

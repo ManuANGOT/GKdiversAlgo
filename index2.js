@@ -2,7 +2,7 @@
 let prixA = 0; // prix d'un produit dans le supermarché A
 let prixB = 0; // prix du même produit dans le supermarché B
 
-// Variables internes
+// Variables : somme des paniers
 let totalA = 0; // somme totale des prix A
 let totalB = 0; // somme totale des prix B
 let totalMini = 0; // somme totale des prix les moins chers
@@ -46,7 +46,7 @@ while (prixA !== 0 || prixB !== 0) {
 // Afficher le montant du « panier idéal »
 console.log("Le montant du panier idéal est : " + totalMini);
 
-// Dire quel est le supermarché globalement le moins cher
+// Quel est le supermarché globalement le moins cher
 if (totalA < totalB) {
   console.log("C’est le 1er supermarché le plus intéressant");
 } else if (totalA > totalB) {
